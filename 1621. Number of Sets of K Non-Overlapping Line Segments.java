@@ -24,8 +24,7 @@ class Solution {
 }
 
 
-Solutioh2
-
+Solution2:
 dp[i][j]  = dp[k][j - 1] <choose j> + dp[i - 1][j] <not choose j> (k < i)
 [may not choose j]
 class Solution {
