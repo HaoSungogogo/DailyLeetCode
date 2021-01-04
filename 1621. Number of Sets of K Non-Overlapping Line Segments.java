@@ -26,7 +26,9 @@ class Solution {
 
 Solution2:
 dp[i][j]  = dp[k][j - 1] <choose j> + dp[i - 1][j] <not choose j> (k < i)
+the first part could be calculated by prefix sum.
 [may not choose j]
+O(n^2)
 class Solution {
     public int numberOfSets(int n, int k) {
         int module = 1000000007;
